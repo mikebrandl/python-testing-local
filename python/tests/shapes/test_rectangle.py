@@ -16,7 +16,6 @@ class TestRectangle:
     def test_perimeter(self, test_rectangle):
         assert test_rectangle.perimeter() == 60
 
-    @pytest.mark.slow
     def test_invalid_shape(self, test_rectangle):
         assert test_rectangle.perimeter() == 60
 
